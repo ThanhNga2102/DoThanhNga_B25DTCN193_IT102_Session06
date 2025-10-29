@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int n;
-    if (n <= 0) {
+    if (n <= 0 || n > 10) {
         do {
             printf("Nhap so nguyen duong (1-10): ");
             scanf("%d", &n);
